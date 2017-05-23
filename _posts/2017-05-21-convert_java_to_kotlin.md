@@ -11,7 +11,7 @@ Just follow following simple steps and you are ready to go.
 
 Open java class file and **invoke action** (just double tap shift to open search window).
 
-Type there: **Convert Java File to Kotlin File** 
+Type there: `Convert Java File to Kotlin File`
 
 ![convert-java-to-kotlin](/img/convert-java-to-kotlin.png)
 
@@ -24,11 +24,11 @@ So, if your code in java is like:
 ```javascript
 public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+}
 }
 ````
 
@@ -36,10 +36,10 @@ After converting in **Kotlin**, it will looks like:
 ```javascript
 class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
+override fun onCreate(savedInstanceState: Bundle?) {
+super.onCreate(savedInstanceState)
+setContentView(R.layout.activity_main)
+}
 }
 ```
 

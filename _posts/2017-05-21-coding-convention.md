@@ -10,7 +10,7 @@ Kotlin's basic syntax is very similar to swift.
 
 In java, we are use to define mehtods. 
 
-In Kotlin, we have to use *fun* -> Function for defining any method.
+In Kotlin, we have to use `fun` -> Function for defining any method.
 
 Example, if we want to do sum of 5 & 6, we use to define in Java as:
 
@@ -206,13 +206,13 @@ for (i in 1..4) print(i) // prints "1234"
 for (i in 4..1) print(i) // prints nothing
 ````
 
-What if you want to iterate over numbers in reverse order? It's simple. You can use the **downTo()** function defined in the standard library
+What if you want to iterate over numbers in reverse order? It's simple. You can use the `downTo()` function defined in the standard library
 
 ```javascript
 for (i in 4 downTo 1) print(i) // prints "4321"
 ````
 
-Is it possible to iterate over numbers with arbitrary step, not equal to 1? Sure, the **step()** function will help you
+Is it possible to iterate over numbers with arbitrary step, not equal to 1? Sure, the `step()` function will help you
 
 ```javascript
 for (i in 1..4 step 2) print(i) // prints "13"
@@ -220,7 +220,7 @@ for (i in 1..4 step 2) print(i) // prints "13"
 for (i in 4 downTo 1 step 2) print(i) // prints "42"
 ```
 
-To create a range which does not include its end element, you can use the **until** function:
+To create a range which does not include its end element, you can use the `until` function:
 
 ```javascript
 for (i in 1 until 10) { // i in [1, 10), 10 is excluded
@@ -241,7 +241,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-* Checking if a collection contains an object using in operator:
+* Checking if a collection contains an object using `in` operator:
 
 ```javascript
 fun main(args: Array<String>) {
@@ -253,7 +253,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-* Using lambda expressions to filter and map collections:
+* Using `lambda` expressions to filter and map collections:
 
 ```javascript
 fun main(args: Array<String>) {
